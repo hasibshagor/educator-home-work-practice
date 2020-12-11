@@ -1,0 +1,668 @@
+/* ---------- all-css-start ---------- */
+
+/* ---------- font-call-start ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:wght@400;600;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+/* ---------- font-call-end ---------- */
+
+/* ---------- default-css-start ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ---------- container-css-start ---------- */
+
+.container {
+    width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ---------- container-css-end ---------- */
+
+
+/* ---------- col-framework-start ---------- */
+
+.col-25 {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-33 {
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-40 {
+    width: 40%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-50 {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-60 {
+    width: 60%;
+    padding: 0 15px;
+}
+
+.col-75 {
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+}
+
+/* ---------- col-framework-end ---------- */
+
+/* ---------- default-css-end ---------- */
+
+
+/* ---------- body-start ---------- */
+
+/* ---------- body-style-css-start ---------- */
+
+body {
+    font-family: open sans, sans-serif;
+    font-size: 15px;
+    color: #888;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 120px;
+    line-height: 120px;
+    color: #85ccc5;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 54px;
+    line-height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 47px;
+    line-height: 55px;
+    color: #434343;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 39px;
+    line-height: 45px;
+    color: #434343;
+}
+
+h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    color: #434343;
+    display: inline-block;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    color: #555;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #888;
+}
+
+.section-padding {
+    padding-bottom: 120px;
+}
+
+/* ---------- body-style-css-end ---------- */
+
+
+/* ---------- header-start ---------- */
+
+header {
+    width: 100%;
+    background: #85CCC5;
+}
+
+.container .col-25 {
+    padding: 0
+}
+
+.container .col-75 {
+    padding: 0;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: #fff;
+    line-height: 80px;
+    padding: 0 20px;
+    display: block;
+}
+
+/* ---------- header-end ---------- */
+
+
+/* ---------- hero-section-start ---------- */
+
+#hero-section {
+    background-image: url(../image/hero-slider/h1-slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-area {
+    margin-top: 200px
+}
+
+.vmbtn {
+    margin-top: 60px;
+}
+
+.vmbtn a {
+    color: #212121;
+    padding: 20px 50px;
+    background: #FED072;
+    transition: .3s;
+}
+
+.vmbtn a:hover {
+    color: #fff;
+    background: #85ccc5;
+}
+
+/* ---------- hero-section-end ---------- */
+
+
+/* ---------- feature-service-start ---------- */
+
+#feature-service {
+    margin-top: -150px;
+}
+
+#feature-service .col-33 {
+    padding: 0;
+}
+
+.service-box {
+    position: relative;
+}
+
+.service-box a {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.service-box h2 {
+    padding: 120px 30px 30px 30px;
+}
+
+.p-feature-service {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+    width: 80%;
+    padding: 0 30px 30px 30px;
+}
+
+.box-1 {
+    background: url(../image/category-box/category-box-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-2 {
+    background: url(../image/category-box/category-box-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-3 {
+    background: url(../image/category-box/category-box-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ---------- feature-service-end ---------- */
+
+
+/* ---------- category-section-start ---------- */
+
+#category-section {
+    margin-top: -3px;
+}
+
+#category-section .category-icon {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#category-section p {
+    padding: 20px 0 80px 0;
+}
+
+/* ---------- category-section-end ---------- */
+
+
+/* ---------- learning-system-start ---------- */
+
+#learning-system {
+    background: url(../image/section-bg/section-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#learning-system .col-40 {
+    padding: 0;
+    float: right;
+}
+
+.content {
+    padding: 50px 60px;
+    background: #FED072;
+    margin: 140px 0;
+}
+
+.p-learning {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    color: #313131;
+    margin-top: 40px;
+}
+
+.rmbtn {
+    margin-top: 60px;
+}
+
+.rmbtn a {
+    color: #212121;
+    padding: 20px 50px;
+    background: #fff;
+    transition: .3s;
+}
+
+.rmbtn a:hover {
+    background: #434343;
+    color: #fff;
+}
+
+/* ---------- learning-system-end ---------- */
+
+
+/* ---------- event-section-start ---------- */
+
+#event-section {
+    margin-top: 120px;
+}
+
+#event-section .col-60 {
+    margin: 0 auto;
+}
+
+#event-section h5 {
+    margin-top: 30px;
+    transition: .3s;
+}
+
+#event-section h5:hover {
+    color: #FED072;
+}
+
+.event-name a {
+    text-transform: capitalize;
+}
+
+.p-18 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 33px;
+    color: #888;
+    margin-top: 30px;
+}
+
+.event-box {
+    margin-top: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.event-box .event-image img {
+    width: 412px;
+}
+
+.event-date {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 20px;
+    text-align: center;
+    background: #FED072;
+    position: absolute;
+}
+
+.event-box a {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.event-time-location {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: #808080;
+    padding: 30px 0 0 0;
+    margin: 30px 0 0 0;
+    border-top: 1px solid #e1e1e1;
+}
+
+.mar-10-r {
+    margin-right: 10px;
+}
+
+/* ---------- event-section-end ---------- */
+
+
+/* ---------- testimonial-section-start ---------- */
+
+#testimonial-section .col-50 {
+    padding: 0;
+}
+
+.testimonial-bgimg {
+    background: url(../image/section-bg/section-bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video {
+    margin: 150px 0;
+}
+
+.testimonial-info {
+    margin: 190px 0;
+}
+
+.testimonial-info .p-18 {
+    text-align: left;
+    margin-bottom: 40px
+}
+
+.testimonial-info .p-category {
+    font-weight: 700;
+    color: #434343;
+}
+
+.testimonial-number {
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FED072;
+    font-weight: 700;
+}
+
+/* ---------- testimonial-section-end ---------- */
+
+
+/* ---------- course-section-start ---------- */
+
+#course-section .col-60 {
+    margin: 0 auto;
+}
+
+.course-top-info {
+    padding: 25px 21px 0 23px;
+}
+
+.course-top-info a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #434343;
+}
+
+.course-top-info a h5 {
+    transition: .3s;
+}
+
+.course-top-info a h5:hover {
+    color: #FED072;
+}
+
+.course-box {
+    overflow: hidden;
+    border: 1px solid #e1e1e1;
+    margin-top: 80px;
+}
+
+.course-image img {
+    width: 412px;
+}
+
+.author {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #b9b9b9;
+}
+
+.course-box p {
+    margin: 13px 0 38px;
+    padding: 0 23px;
+}
+
+.course-bottom-info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #b9b9b9;
+    line-height: 30px;
+    padding: 14px 26px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.width-30 {
+    width: 30px;
+    display: inline-block;
+}
+
+/* ---------- course-section-end ---------- */
+
+
+/* ---------- call-to-action-start ---------- */
+
+.call-to-action-bgimg {
+    background: url(../image/section-bg/section-bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cta {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.cta form {
+    margin: 40px auto;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 15px 20px;
+    border: none;
+    margin: 0 11px;
+    width: 345px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.submit {
+    display: inline-block;
+}
+
+.submit button {
+    border: none;
+}
+
+.submit button a {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 68px;
+    background: #FED072;
+    margin-left: 11px;
+}
+
+/* ---------- call-to-action-end ---------- */
+
+
+/* ---------- footer-section-start ---------- */
+
+.footer-info {
+    margin-top: 120px;
+
+}
+
+.footer-info .col-25 {
+    padding-right: 30px;
+}
+
+.footer-section-bgimg {
+    background: url(../image/section-bg/section-bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer-section h6 {
+    font-weight: 700;
+}
+
+.call-time {
+    margin-top: 30px;
+    line-height: 40px
+}
+
+.footer-link ul li {
+    padding: 0 0 10px 0
+}
+
+.footer-link ul li a {
+    font-family: open sans, sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #888;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer-link ul li a:hover {
+    color: #FED072;
+}
+
+.copyright-section .col-50 {
+    padding: 0;
+}
+
+.copyright-section {
+    margin-top: 40px;
+    border-top: 1px solid #e1e1e1;
+    line-height: 80px;
+}
+
+.call-social {
+    float: right;
+}
+
+.call {
+    display: inline-block;
+}
+
+.follow {
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.follow-icon {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.follow-icon ul Li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.follow-icon ul Li a {
+    color: #888888;
+    transition: .3s;
+}
+
+.follow-icon ul Li a:hover {
+    color: #85CCC5;
+}
+
+/* ---------- footer-section-end ---------- */
+
+/* ---------- all-css-end ---------- */
